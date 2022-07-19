@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+/* HTML & Body CSS */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+}
+/* Navegacion */
+
+.nav-bar{
+
+    background-color:rgb(25, 33, 41);
+    color: rgb(67, 163, 230);
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    
+}
+.nav-bar ul{
+    padding: 10px;
+    margin:0;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;    
+}
+
+/* Header css */
+
+.header-class{
+    background-image:url(../img/ironhack-skydive-background.jpg) ;
+    height: 650px;
+    position: 0 0;
+    mask-repeat: no-repeat;
+    size: cover;
+}
+
+.header-class aside{
+    font-size: 2.5em;
+    margin-left: 1em;
+    font-style: italic;
+}
+
+/* Section 1 */
+
+.background-color-text{
+    background-color: rgb(25, 33, 41);
+    color: white;
+    font-size: 2em;
+    font-weight: 100;
+    display: flex;
+    text-align: center;
+}
+
+.link-btn{
+    margin: 2em;
+    
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+.Title h3{
+    font-size: 2.5em ;
+    padding: 0.75em;
+}
+
+.Title{
+    letter-spacing: 1px;
+}
+
+/* Section 2 */
+
+.service-box{
+    font-size: 1.7em;
+    display: flex;
+    text-align: center;
+    
+    }
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 9em;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+h2{
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    line-height: 4em;
+    color:white;
+    text-shadow: #020819 8px -20px 9px;
+}
+h3{
+    font-size: 4.2em;
+    display: flex;
+    justify-content: center;
+    line-height: 1em;
+}
+h4{
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+}
+
+h5{
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+
